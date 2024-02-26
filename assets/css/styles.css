@@ -256,13 +256,16 @@ margin: 12px auto 28px auto;}
 }
 
 
+
+
+
 /* portfolio */
 
-#portfolio {
+.portfolioSection {
     min-height: 100vh;
     padding: 32px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #portfolio .portfolioparagraph {
@@ -300,6 +303,130 @@ margin: 12px auto 28px auto;}
     transform: scale(1.05);
     filter: blur(2px);
 }
+
+
+
+
+
+#testimonial {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/clienttestimonial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#testimonial .section-intro h1,
+#testimonial .section-intro p {
+    color: white;
+} 
+
+
+#testimonial .owl-dot span {
+    background-color: transparent;
+    border: 2px solid white;
+    width: 12px;
+    height: 12px;
+    transition: all 0.6s ease;
+
+
+}
+
+
+#testimonial .owl-dot.active span {
+    width: 30px;
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+.review {
+    padding: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--border-radius);
+}
+
+.review .stars {
+    color: orange;  
+}
+
+
+.review p {
+    color: rgba(255, 255, 255, 0.5); 
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+ 
+.review h6,
+.review small {
+    color: white;
+}
+
+.review span {
+    color: var(--brand);}
+
+.review img {
+    width: 75px !important;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+/* Our team */
+#homeSection {
+
+
+}
+
+.team-info {
+    background-color: rgb(104, 99, 99);
+    border-radius: var(--border-radius);
+    width: 75%;
+   margin: 0 auto;
+}
+
+#homeSection .portfolioparagraph {
+    max-width: 100%;
+   }
+
+.reviewTeam img {
+    width: 20%;
+    height: 300px !important;
+}
+
+.reviewTeam {
+    padding: 34px;  
+    margin: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--border-radius);
+    
+}
+
+#homeSection .member-info {
+    text-align: center;
+    padding: 1rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
