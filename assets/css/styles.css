@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "Inter-Regular", sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1.7;
     color: var(--body);
 
@@ -238,6 +238,9 @@ margin: 12px auto 28px auto;}
     font-size: 14px;
 }
 
+#services .portfolioparagraph{
+    max-width: 100%;
+}
 
 /* cta */
 
@@ -380,7 +383,7 @@ margin: 12px auto 28px auto;}
 }
 
 .team-info {
-    background-color: rgb(104, 99, 99);
+    background-color: rgb(33, 32, 32);
     border-radius: var(--border-radius);
     width: 75%;
    margin: 0 auto;
@@ -398,18 +401,151 @@ margin: 12px auto 28px auto;}
 .reviewTeam {
     padding: 34px;  
     margin: 1px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
     border-radius: var(--border-radius);
+
     
 }
+
+ #homeSection .member-info h6, 
+ #homeSection .member-info p {
+   color: rgb(189, 186, 186);
+}
+
+#homeSection .member-info .icon1 {
+    color: rgb(74, 74, 226);
+}
+
+
+#homeSection .member-info .icon2 {
+   color: #1DA1F2;
+}
+
+
+#homeSection .member-info .icon3 {
+    color: #434343; 
+ }
+
+
 
 #homeSection .member-info {
     text-align: center;
     padding: 1rem;
   
+} 
+
+#homeSection .owl-dot span {
+    background-color: transparent;
+    border: 2px solid rgb(143, 143, 143);
+    width: 12px;
+    height: 12px;
+    transition: all 0.6s ease;
+
+
 }
 
 
+#homeSection .owl-dot.active span {
+    width: 30px;
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+.social-links a:hover {
+ font-size: 20px;
+}
+
+#homeSection .social-links a {
+    transition: all 0.6s ease;
+
+}
+
+
+#milestone {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/clientnegotiation1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.counter {
+    margin: 1.5rem 0;
+}
+
+
+.counter .divider {
+    width: 70px;
+    height: 2px;
+    background-color: var(--brand);
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.counter h1 {
+    line-height: 1;
+}
+
+.counter h1,
+.counter h4,
+.counter p {
+    color: white;
+    
+}
+
+.counter .milestonestars {
+    font-size: 25px;
+}
+
+
+
+
+/* blog */
+
+.blog-post {
+    text-align: center;
+}
+
+.blog-post img {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+
+}
+
+
+.blog-post .tag {
+    padding: 4px 12px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: var(--brand);
+    color: white;
+    border-radius: 3px;
+
+}
+
+
+.blog-post-content {
+    padding: 28px;
+}
+
+.blog-post h4 {
+    margin-top: 12px;
+}
+
+.blog .portfolioparagraph {
+    max-width: 100%;
+}
+
+/* contact */
+
+#contact .portfolioparagraph {
+    max-width: 100%;
+}
 
 
 
