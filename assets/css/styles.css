@@ -575,4 +575,8 @@ margin: 12px auto 28px auto;}
     width: 100%;
    
   }
+
+  .navigationItems {
+    margin: 0;
+}
   }
